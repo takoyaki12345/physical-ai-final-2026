@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.8)
+project(ai_robot_final)
+find_package(ament_cmake REQUIRED)
+install(PROGRAMS scripts/ai_robot_controller.py DESTINATION lib/${PROJECT_NAME} RENAME ai_robot_controller)
+ament_package()
