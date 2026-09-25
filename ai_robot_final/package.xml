@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>ai_robot_final</name>
+  <version>1.0.0</version>
+  <description>Local-LLM natural-language controller for CRANE+ V2.</description>
+  <maintainer email="noreply@example.com">Nobuchika Matsuo</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>trajectory_msgs</exec_depend>
+  <exec_depend>builtin_interfaces</exec_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>
